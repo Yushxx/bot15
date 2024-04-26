@@ -5,17 +5,17 @@ const http = require('http');
 
 
 //Remplacez 'YOUR_TELEGRAM_BOT_TOKEN' par le token de votre bot Telegram
-const bot = new TelegramBot('6774125880:AAHkXEmAreIZX3Irv5C6ERutNom5Lqu6lwc', { polling: true });
+const bot = new TelegramBot('6709226802:AAFsygBgGlSq1bF1-ziWFBjFVT9D-M9HxDM', { polling: true });
 
 
 bot.onText(/\/start/, (msg) => {
     const chatId = msg.chat.id;
     const firstName = msg.from.first_name;
 
-    bot.sendMessage(chatId, `Salut ${firstName} ! Bienvenue dans le programme hack de solkah. Cliquez sur le bouton ci-dessous pour nous rejoindre`, {
+    bot.sendMessage(chatId, `Hey ${firstName} welcome to trading signals space 100% free.click on the buttons below to join us.    `, {
         reply_markup: {
             inline_keyboard: [[
-                { text: 'Rejoindre ✅️🤑', url: 'https://t.me/+WyCUuUiYnko2ZTdk' }
+                { text: 'Join ✅️🤑', url: 'https://t.me/+8I_9eUvSUIgxN2E0' }
             ]]
         }
     });
