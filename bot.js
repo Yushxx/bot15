@@ -12,7 +12,7 @@ bot.onText(/\/start/, (msg) => {
     const chatId = msg.chat.id;
     const firstName = msg.from.first_name;
 
-    bot.sendMessage(chatId, `Hey ${firstName} welcome to trading signals space 100% free.click on the buttons below to join us.    `, {
+    bot.sendMessage(chatId, `Hey ${firstName} welcome to trading signals space 100% free click on the buttons below to join us.    `, {
         reply_markup: {
             inline_keyboard: [[
                 { text: 'Join ✅️🤑', url: 'https://t.me/+8I_9eUvSUIgxN2E0' }
